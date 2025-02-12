@@ -31,9 +31,9 @@ The `respond` function will be called every time the `should_i_respond` function
 ### Requirements
 
 * Your code should use the following methods:
-    * [ ] `.lower()`, `.upper()`, and/or `.capitalize()`
-    * [ ] `.replace()`
-* [ ] You should iterate through at least one string using a `for` loop
-* [ ] You should use string string indexing (e.g. `my_string[3]`) and/or string slicing (e.g. `my_string[3:6]`)
-* [ ] Your code should use at least one function from the `random` library
-* [ ] Your bot should respond to at least 10 different messages that a user in your discord channel might send
+    * [x] `.lower()`, `.upper()`, and/or `.capitalize()`
+    * [x] `.replace()`
+* [x] You should iterate through at least one string using a `for` loop
+* [x] You should use string string indexing (e.g. `my_string[3]`) and/or string slicing (e.g. `my_string[3:6]`)
+* [x] Your code should use at least one function from the `random` library
+* [x] Your bot should respond to at least 10 different messages that a user in your discord channel might send
