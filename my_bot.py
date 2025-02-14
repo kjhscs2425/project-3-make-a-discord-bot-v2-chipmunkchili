@@ -138,7 +138,10 @@ def should_i_respond_7(user_message, user_name):
 def respond_7(user_message, user_name):
   user_message = user_message.replace("how many characters are here: ", "")
   number = len(user_message)
-  return f'There are {number} characters there!'
+  if number == 1:
+    return f'There is {number} character there!'
+  else:
+    return f'There are {number} characters there!'
 
 
 
@@ -154,7 +157,10 @@ def respond_8(user_message, user_name):
   phrase = user_message[16:end]
   sentence = user_message[end+2:]
   number = sentence.count(phrase)
-  return f'There are {number} there!'
+  if number == 1:
+    return f'There is {number} there!'
+  else:
+    return f'There are {number} there!'
 
 
 
