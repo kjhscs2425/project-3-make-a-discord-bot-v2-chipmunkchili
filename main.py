@@ -19,6 +19,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+  if not message.author.bot:
   #if message.channel.name == "stella_bot":
     if message.author != client.user:
       user_name = message.author.display_name
